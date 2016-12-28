@@ -1,0 +1,29 @@
+.screen{
+    background: rebeccapurple;
+    color: white;
+    height: 300rpx;
+    position: relative;
+}
+.screen .result{
+    position:absolute;
+    right:30rpx;
+    bottom:30rpx;
+    font-size: 50px;
+}
+.control{
+    background: blanchedalmond;
+    overflow: hidden;
+}
+.control .button{
+    box-sizing: border-box;    
+    width: 25%;
+    height: 187rpx;
+    border-left: 1px solid #000;
+    border-bottom: 1px solid #000;
+    float: left;
+    line-height: 187rpx;
+    text-align: center;
+}
+.control .button.w50{
+    width: 50%;
+}
